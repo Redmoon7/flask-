@@ -1,0 +1,51 @@
+body {
+    background-color: antiquewhite;
+}
+
+.WebTitle {
+    background-color: darkgoldenrod;
+    margin: inherit;
+    text-align: center;
+}
+
+.login {
+    background-color: burlywood;
+    margin: inherit;
+    text-align: center;
+
+}
+.file {
+    background-color: burlywood;
+    margin: inherit;
+    text-align: center;
+
+}
+
+.ImageList {
+
+    width: 100%;
+    
+
+}
+
+.ImagePreview {
+    background-color: darkkhaki;
+    border: 2px dashed red;
+    margin: inherit;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    padding: 5px;
+    /* 元素向左浮动 */
+
+    width: 20%;
+    /* 每个元素的宽度为容器的20% */
+}
+
+.container {  
+
+  display: flex;  
+
+  flex-direction: column;  
+
+}  
